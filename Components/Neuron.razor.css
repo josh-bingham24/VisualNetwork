@@ -1,0 +1,21 @@
+﻿.neuron {
+    width: 50px; /* Width of the neuron */
+    height: 50px; /* Height of the neuron */
+    background-color: gray; /* Default background color */
+    border-radius: 50%; /* Make it circular */
+    display: flex; /* To center the value */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 2px solid black; /* Optional: border to make it more distinctive */
+    margin: 10px; /* Optional: spacing between neurons */
+    font-weight: bold; /* Make the value stand out */
+}
+
+.active {
+    background-color: lightgreen;
+    box-shadow: 0px 0px 10px 2px rgba(0, 255, 0, 0.5);
+}
+
+.inactive {
+    background-color: gray;
+}

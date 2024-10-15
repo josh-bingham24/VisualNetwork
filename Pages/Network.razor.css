@@ -1,0 +1,12 @@
+﻿.network-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px; /* Space between layers */
+    margin-top: 50px;
+}
+
+.neuron-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between neurons */
+}

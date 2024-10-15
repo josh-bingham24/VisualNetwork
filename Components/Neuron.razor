@@ -1,0 +1,10 @@
+﻿<div class="neuron" style="background-color:@(IsActive ? "lightgreen" : "gray");">
+    <span>@Value</span>
+</div>
+
+@code {
+    [Parameter]
+    public float Value { get; set; } = 0f;
+    [Parameter]
+    public bool IsActive { get; set; } = false;
+}

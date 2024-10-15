@@ -1,0 +1,19 @@
+﻿@page "/"
+
+@using VisualNetwork.Components
+
+<div class="network-container">
+    @for (int layer = 0; layer < 2; layer++)
+    {
+        <div class="neuron-container">
+            @for (int i = 0; i < 5; i++)
+            {
+                <Neuron Value="10"></Neuron>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<List<float>> neuronValues = new();
+}
